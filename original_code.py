@@ -4,7 +4,7 @@ import subprocess
 
 
 def from_file():
-    url_file = open("url_list.txt", "r")  # opens the list of YouTube videos
+    url_file = open("out/url_list.txt", "r")  # opens the list of videos
     url_list = []
 
     for i in url_file:  # every line with content is added to a list of urls

@@ -22,7 +22,7 @@ def from_file():
 def to_m4a():
     for filename in os.listdir("out"):  # iterates through downloaded videos
         # exclude non-videos
-        if not (os.path.splitext(filename)[-1].lower() == ".mp4"):
+        if not (os.path.splitext(filename)[-1].lower() == ".m4a"):
             continue
 
         name = os.path.basename(filename)  # gets the filename of the file
